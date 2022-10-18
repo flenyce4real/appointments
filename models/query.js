@@ -1,5 +1,5 @@
 const  connection = require('./connection')
-const { v4: uuidv4 } = require('uuid');
+const { v4: uuidv4 } = require('uuid')
 
 const createAppointment = (name, email, location, time, messages) => {
     return  new Promise((resolve, reject) => {
